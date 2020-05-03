@@ -1,0 +1,335 @@
+.header-color {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #000000,#000000, #223679); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000000,#000000, #223679); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+
+.landing-grid {
+  background-image: url("/wall.jpeg");
+  text-align: center;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+}
+.final{
+  text-align: center;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  margin-left: 7em;
+  margin-top: 1em;
+  width: 100%;
+  display: flex;
+  background-color: aqua;
+}
+
+.projects-grid1{
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f8fbfd,#557faa); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f8fbfd,#557faa); 
+}
+
+.projects-grid2 {
+  display: flex;
+  padding-top: 2em;
+  
+}
+
+.stack-grid1{
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6587aa,#557faa); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6587aa,#557faa); 
+  height: 100%;
+  display:inline-block;
+  width:100%;
+  text-align: center;
+ 
+}
+
+.stack-grid2 {
+  display:inline-block;
+padding: 1em;
+text-align: center;
+
+
+}
+.draw{
+  display:flex;
+  padding: 1em;
+  font-size: 1.5em;
+  
+}
+.card{
+  display:flex;
+margin: auto;
+}
+.contact-grid{
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f8fbfd,#557faa); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f8fbfd,#557faa); 
+display:flex;
+height: 100%;
+}
+.overflow{
+  overflow: hidden;
+}
+.card-img-top{
+  transition:transform 0.5s ease;
+  text-align: center;
+
+}
+
+.card{
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-img{
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s ;
+  -ms-transition:all .5s;
+  -o-transition:all .5s;
+  transition: all .5s;
+}
+
+.portfolio-text{
+  position: absolute;
+  bottom: 0;
+  padding: 1px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0);
+  color:black;
+  -webkit-transform: translateY(68%);
+  -moz-transform: translateY(68%);
+  -ms-transform:translateY(68%);
+  -o-transform:translateY(68%);
+  transform: translateY(68%);
+
+
+}
+
+.checked {
+  color: orange;
+}
+
+.portfolio-text p{
+  text-align: justify;
+  background-color: #f8fbfdb2;
+  width: auto;
+}
+
+.card:hover { 
+  box-shadow:5px 10px 20px 1px rgba(0,0,0,253)!important;
+  transform:
+   scale(1.1);
+   filter: grayscale(100%) blur(1 px);  
+   
+   
+} 
+.card:hover .portfolio-text{
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform:translateY(0);
+  -o-transform:translateY(0);
+  transform: translateY(0);
+  
+}
+
+
+
+
+/* Resume Page css */
+.resume-right-col {
+  background: rgb(0, 0, 0);
+  color: white;
+  width: 100%;
+  height: auto;
+  padding: 1em;
+}
+.resume-right-col2 {
+  background: rgb(95, 90, 87);
+  color: white;
+  margin: auto;
+ 
+
+}
+.achieveBack{
+background-color: #14191f;
+width: auto;
+height: auto;
+
+}
+
+/* contact page css */
+
+.contact-body {
+  margin: auto;
+  width: 100%;
+  height: 1000px;
+ 
+}
+
+.contact-grid {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f8fbfd,#557faa); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f8fbfd,#557faa); 
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: black;
+ 
+}
+
+.asd{
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  justify-content: center;
+  
+}
+.resume-grid {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 900px;
+  background: white;
+  color: black;
+  margin-bottom: px;
+}
+
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-gridr {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 50px;
+  padding-right: 5rem;
+}
+
+.font-list{
+  font-size: 30px;
+text-align: center;
+font-weight: bold;
+  margin-left: 2em;
+}
+
+
+/* contact page css */
+
+.avatar-img {
+  height: 250px;
+  padding-top: 2em;
+  margin: auto;
+}
+.avatar-img2 {
+  width: 125%; 
+  display: flex;
+align-items: center;  
+align-content: center;
+}
+.avatar-img3 {
+  width: auto; 
+  display: flex;
+align-items: center;  
+align-content: center;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  height: 100%;
+  width: 100%;
+  scroll-padding-top: 2em;
+  margin: auto;
+  margin-top: 70px;
+  border-radius: 10px;
+}
+.banner-text2 {
+  background-color: black;
+  opacity: .8;
+  padding: 30px;
+  height: 100%;
+  width: 80%;
+  scroll-padding-top: 2em;
+  margin: auto;
+  margin-top: 70px;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.card1{
+  padding:2em;
+  display: inline;
+}
+.card-title{
+  margin: auto;
+  padding-left: 5em;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 75%;
+  display: flex;
+margin: auto;
+padding: 0.5em;
+  /* margin: auto; */
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: auto;
+  padding: 2em;
+  padding-bottom: 1.2em;
+}
+
+.social-links i {
+  display: flex;
+  color: white;
+  font-size: 4em;
+  
+}
