@@ -12,7 +12,9 @@
     "react-mdl": "^2.1.0",
     "react-responsive-carousel": "^3.2.4",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-toasts": "^3.0.6",
+    "toasted-notes": "^3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

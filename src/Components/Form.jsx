@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import axios from 'axios';
+import {ToastsContainer, ToastsStore} from 'react-toasts';
 
 class Form extends Component{
 	constructor(props){
@@ -25,6 +26,8 @@ axios.post("https://sheet.best/api/sheets/bd7a12a5-bd2b-4b2f-8a92-e72dd9a3d3e4",
 this.state).then(response =>
 	{console.log(response)})
 	.catch(error=>{console.log(error.repsonse)})
+	
+   
 	this.setState({
 		name: '',
 		Email:'',
@@ -70,7 +73,7 @@ this.state).then(response =>
 
 </div>
 <div className="submit">
-<button type="submit" class="btn btn-primary">Submit</button>
+<button type="submit" class="btn btn-primary" onClick={() => ToastsStore.success("Hey, you just clicked!")}>Submit</button>
 <div className="input-group mb-3">	
 </div>
 </div>
