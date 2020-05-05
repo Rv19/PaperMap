@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
-
+import Notification from './Notification';
 
 class TechnicalStack extends Component{
     constructor(props) {
@@ -1073,7 +1073,6 @@ class TechnicalStack extends Component{
             </Tabs>
             </div>
             </div>
-    
     
               <Grid>
                 <Cell col={12}>

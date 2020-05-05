@@ -5,6 +5,7 @@ import Resume from './Components/Resume';
 import Main from './Components/Main';
 import { Link } from 'react-router-dom';
 import TechnicalStack from './Components/TechnicalStack'
+import Notification from './Components/Notification';
 
 class App extends Component {
   render(){
@@ -24,7 +25,7 @@ class App extends Component {
             </Navigation>
         </Drawer>
         <Content>
-           <Main/>
+    <Main/>
         </Content>
     </Layout>
 </div>
