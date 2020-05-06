@@ -5,8 +5,8 @@ import { NotificationManager } from 'react-notifications';
 import styled from 'styled-components';
 
 const Container=styled.div`
-background-color:white;
-color:black;
+background-color:black;
+color:white;
 padding:16px;
 position:absolute;
 top:${props=>props.top}px;

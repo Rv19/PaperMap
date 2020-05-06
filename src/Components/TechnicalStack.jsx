@@ -23,7 +23,7 @@ class TechnicalStack extends Component{
               Portfolio React application tells about the Resume, Projects and many other things.
               </CardText> */}
               <CardActions border>
-                <Button style={{width:'100%', height: '36px'}} colored><a href="https://drive.google.com/drive/folders/0B77M9U2EbAqVMkRnUmRyMS1uanM?usp=sharing" target="_blank">CSA</a></Button>
+                <Button style={{width:'100%', height: '36px'}} colored><a href="https://drive.google.com/drive/folders/0B77M9U2EbAqVMkRnUmRyMS1uanM?usp=sharing" target="_blank">Algo</a></Button>
               </CardActions>
             
             </Card>
@@ -143,7 +143,7 @@ class TechnicalStack extends Component{
               Portfolio React application tells about the Resume, Projects and many other things.
               </CardText> */}
               <CardActions border>
-                <Button style={{width:'100%'}} colored><a href="https://github.com/Rv19/ReactPortfolio" target="_blank">ML</a></Button>
+                <Button style={{width:'100%'}} colored><a href="" target="_blank">ML</a></Button>
               </CardActions>
             
             </Card>
@@ -524,7 +524,7 @@ class TechnicalStack extends Component{
        <div className="stack-grid2">
            <div className="col-xs-3">
            <Card className="card" shadow={1} style={{width:'210px',height:'220px'}}>
-             <CardTitle style={{color: '#fff', height: '176px', background: 'url(scilab.jpeg) center / cover'}} >Scilab for Engineers</CardTitle>
+             <CardTitle style={{color: '#000', height: '176px', background: 'url(scilab.jpeg) center / cover'}} >Scilab for Engineers</CardTitle>
              {/* <CardText>
              Portfolio React application tells about the Resume, Projects and many other things.
              </CardText> */}
@@ -537,7 +537,7 @@ class TechnicalStack extends Component{
              <div className="stack-grid2">
            <div className="col-xs-3">
            <Card className="card" shadow={1} style={{width:'210px',height:'220px'}}>
-             <CardTitle style={{color: '#fff', height: '176px', background: 'url(hardware.jpeg) center / cover'}} >Hardware Lab (HL)</CardTitle>
+             <CardTitle style={{color: '#000', height: '176px', background: 'url(hardware.jpeg) center / cover'}} >Hardware Lab (HL)</CardTitle>
              {/* <CardText>
              Portfolio React application tells about the Resume, Projects and many other things.
              </CardText> */}
@@ -685,7 +685,7 @@ class TechnicalStack extends Component{
               Portfolio React application tells about the Resume, Projects and many other things.
               </CardText> */}
               <CardActions border>
-                <Button style={{width:'100%'}} colored><a href="https://drive.google.com/open?id=1jotAX07kli80wfPkVeEz_QcvM5BtttLK" target="_blank">ML</a></Button>
+                <Button style={{width:'100%'}} colored><a href="https://drive.google.com/open?id=1jotAX07kli80wfPkVeEz_QcvM5BtttLK" target="_blank">DM</a></Button>
               </CardActions>
             
             </Card>
@@ -760,7 +760,7 @@ class TechnicalStack extends Component{
               Portfolio React application tells about the Resume, Projects and many other things.
               </CardText> */}
               <CardActions border>
-                <Button style={{width:'100%'}} colored><a href="https://drive.google.com/open?id=14X_YRVP4kzH_bGRZS56-s5S10wgFwYlZ"target="_blank">PE</a></Button>
+                <Button style={{width:'100%'}} colored><a href="https://drive.google.com/open?id=14X_YRVP4kzH_bGRZS56-s5S10wgFwYlZ"target="_blank">OSL</a></Button>
               </CardActions>
             
             </Card>
@@ -981,7 +981,7 @@ class TechnicalStack extends Component{
               Portfolio React application tells about the Resume, Projects and many other things.
               </CardText> */}
               <CardActions border>
-                <Button style={{width:'100%'}} colored><a href="https://drive.google.com/open?id=1IP-kscJnMU6GEuBPWZ6qCuPAqdjF7vaZ"target="_blank">ST</a></Button>
+                <Button style={{width:'100%'}} colored><a href="https://drive.google.com/open?id=1IP-kscJnMU6GEuBPWZ6qCuPAqdjF7vaZ"target="_blank">AI</a></Button>
               </CardActions>
             
             </Card>
@@ -995,7 +995,7 @@ class TechnicalStack extends Component{
               Portfolio React application tells about the Resume, Projects and many other things.
               </CardText> */}
               <CardActions border>
-                <Button style={{width:'100%'}} colored><a href="https://drive.google.com/open?id=157hz2DqBne2ULBzafO0ogGiAzR6kd5XB"target="_blank">ST</a></Button>
+                <Button style={{width:'100%'}} colored><a href="https://drive.google.com/open?id=157hz2DqBne2ULBzafO0ogGiAzR6kd5XB"target="_blank">DC</a></Button>
               </CardActions>
             
             </Card>
@@ -1009,7 +1009,7 @@ class TechnicalStack extends Component{
               Portfolio React application tells about the Resume, Projects and many other things.
               </CardText> */}
               <CardActions border>
-                <Button style={{width:'100%'}} colored><a href="https://drive.google.com/open?id=18XaBd_2vOR09BvWJS-qCfTisZaK8GLvg"target="_blank">ST</a></Button>
+                <Button style={{width:'100%'}} colored><a href="https://drive.google.com/open?id=18XaBd_2vOR09BvWJS-qCfTisZaK8GLvg"target="_blank">IOT</a></Button>
               </CardActions>
             
             </Card>
@@ -1037,7 +1037,7 @@ class TechnicalStack extends Component{
               Portfolio React application tells about the Resume, Projects and many other things.
               </CardText> */}
               <CardActions border>
-                <Button style={{width:'100%'}} colored><a href="https://drive.google.com/open?id=13oTH_MuYaPN64CQ3_f0KJu3DoOPDadW7"target="_blank">ST</a></Button>
+                <Button style={{width:'100%'}} colored><a href="https://drive.google.com/open?id=13oTH_MuYaPN64CQ3_f0KJu3DoOPDadW7"target="_blank">WT</a></Button>
               </CardActions>
             
             </Card>
@@ -1066,7 +1066,7 @@ class TechnicalStack extends Component{
                <div className="col-xs-3">  
                {/* <input label="Search" icon="search" onChange={this.onChange}/> */}
             <Tabs className="col-xs-3"activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-              <Tab className="col-xs-3">1st Year</Tab>
+              <Tab className="col-xs-3 pl-5">1st Year</Tab>
               <Tab className="col-xs-3">2nd Year</Tab>
               <Tab className="col-xs-3">3rd Year</Tab>
               <Tab className="col-xs-3">4th Year</Tab>
