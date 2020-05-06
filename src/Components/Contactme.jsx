@@ -14,7 +14,7 @@ class Contactme extends Component{
                 <div className="col-xs-3">
                 <h2 style={{ width: '100%', paddingTop: '1em'}}>Rohit Yadav</h2>
                 <img
-                  src="Profile.jpeg"
+                  src="profile.jpeg"
                   alt="avatar"
                   style={{width: '200px', height: '200px'}}
                    />
